@@ -210,3 +210,34 @@ html{
 }
 /*About styles end*/
 
+/*Our friends styles start*/
+.friends{
+    background: #F6F6F6;
+    height: 100vh;
+    max-height: 877px;
+}
+.friends_wrapper{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.friends_title{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+font-size: 35px;
+line-height: 45px;
+letter-spacing: 0.06em;
+color: #545454;
+max-width: 400px;
+padding-bottom:60px ;
+}
+
+.friends_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Our friends styles end*/
