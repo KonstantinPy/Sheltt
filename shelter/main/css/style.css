@@ -22,7 +22,7 @@ html{
 
 /*Header styles start*/
 .header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -86,13 +86,14 @@ html{
 
 .intro{
    
-    background: url(/shelter/assets/img/start-screen-puppy.svg),url(/shelter/assets/img/start-screen-gradient-background.svg);
-    background-size: auto,cover;
+    background:url(/shelter/assets/img/start-screen-gradient-background.svg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom right, center;
+    background-position: center;
     padding-top: 180px;
     height: 100vh;
-    padding-bottom: ;
+    max-height: 908px;
+    
    
 }
 
@@ -102,8 +103,8 @@ html{
     font-weight: 400;
     font-size: 44px;
     line-height: 57px;
-    margin-bottom: 42px;
-    padding-top: 163px;
+    padding-bottom: 42px;
+    
 
 }
 
@@ -113,7 +114,7 @@ html{
     font-size: 15px;
     line-height: 24px;
     color: #CDCDCD;
-    margin-bottom: 42px;
+    padding-bottom: 42px;
 }
 
 .button{
@@ -136,14 +137,76 @@ html{
     flex-direction: row;
     justify-content: space-between;
 }
-.container{
-    max-height: 322px;
+.intro_container{
+    padding-top: 163px;
     max-width: 460px;
+    width: 100%;
 }
 
 .img_container{
-    max-height: 728px;
+    height: auto;
     max-width: 698px;
+    width: 100%;
 }
 /*Intro styles end*/
+
+/*About styles start*/
+
+.about {
+    background: #FFFFFF;
+    height: 100vh;
+    max-height: 588px;
+}
+
+.about_wrapper{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about_img_container{
+    height: auto;
+    width: 300px;
+    width: 100%;
+    padding-left: 175px;
+    
+}
+
+.about_container{
+    height: auto;
+    width: 430px;
+    width: 100%;
+    padding:14px 175px 14px 0;
+    
+}
+.about_title{
+    width: 370px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding-bottom: 25px;
+}
+.about_subtitle1{
+    width: 430px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C;
+    padding-bottom: 25px;
+}
+
+.about_subtitle2{
+    width: 430px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C; 
+}
+/*About styles end*/
 
