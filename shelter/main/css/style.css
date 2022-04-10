@@ -215,12 +215,7 @@ html{
     background: #F6F6F6;
     height: 100vh;
     max-height: 877px;
-}
-.friends_wrapper{
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding:80px 0 100px 0 ;
 }
 
 .friends_title{
@@ -232,12 +227,16 @@ letter-spacing: 0.06em;
 color: #545454;
 max-width: 400px;
 padding-bottom:60px ;
+text-align: center;
 }
 
-.friends_container{
+.left_arrow{
+  
+}
+.right_arrow{
+  
+}
+.friends_slider{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
-
 /*Our friends styles end*/
