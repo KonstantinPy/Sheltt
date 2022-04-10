@@ -126,6 +126,8 @@ html{
     font-size: 17px;
     line-height: 22px;
     letter-spacing: 0.06em;
+    outline: none;
+    border: none;
 }
 
 .button:hover, .button:focus{
@@ -220,35 +222,22 @@ html{
 }
 
 
-.upper_friends_title{
+.friends_title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 35px;
     line-height: 45px;
     letter-spacing: 0.06em;
     color: #545454;
-    max-width: 400px;
     text-align: center;
-    margin: 0px 400px 0 400px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
 }
-
-.friends_title{
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-weight: 400;
-font-size: 35px;
-line-height: 45px;
-letter-spacing: 0.06em;
-color: #545454;
-max-width: 400px;
-text-align: center;
-padding-bottom: 60px;
-margin: 0px 400px 0 400px;
-}
-
 
 .left_arrow{
-    padding: 23px 19px;
+    
     width: 52px;
     height: 52px;
     border: 2px solid #F1CDB3;
@@ -257,7 +246,7 @@ margin: 0px 400px 0 400px;
     
 }
 .right_arrow{
-    padding: 23px 19px;
+    
     width: 52px;
     height: 52px;
     border: 2px solid #F1CDB3;
@@ -268,50 +257,24 @@ margin: 0px 400px 0 400px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 60px;
 }
 .card_container{
     display: flex;
-    
+    padding: 0px 53px;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 435px;
 }
 
-.first_card_box{
+.card_box{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 270px;
-    height: 435px;
     background: #FAFAFA;
     border-radius: 9px;
-    margin: 0px 45px 0px 53px;
-    
+   
 }
-
-.second_card_box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 270px;
-    height: 435px;
-    background: #FAFAFA;
-    border-radius: 9px;
-    margin: 0px 45px 0px 45px;
-    
-}
-
-.third_card_box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 270px;
-    height: 435px;
-    background: #FAFAFA;
-    border-radius: 9px;
-    margin: 0px 53px 0px 45px;
-    
-}
-
-
-
 .card_title{
    font-family: 'Georgia';
    font-weight: 400;
@@ -342,17 +305,25 @@ margin: 0px 400px 0 400px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 17px;
+    width: 261px;
+    height: 52px;
     line-height: 22px;
     letter-spacing: 0.06em;
     color: #292929;
-    padding: 15px 45px;
     background: #F1CDB3;
     border-radius: 100px;
-    margin-top: 60px;
-    padding: ;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+   
+    
 }
 
-
-
-
 /*Our friends styles end*/
+
+/*Help friends styles start*/
+
+
+
+/*Help friends styles end*/
