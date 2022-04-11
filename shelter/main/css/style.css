@@ -67,8 +67,22 @@ html{
   line-height: 35px;
   color: #F1CDB3;
   letter-spacing: 0.06em;
+  
 
 }
+
+.title_url1{
+    color: #F1CDB3;
+    text-decoration: none;
+    
+}
+
+.title_url2{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
 .subtitle{
     font-size: 13px;
     font-weight: 400;
@@ -99,10 +113,11 @@ html{
 .header_link:hover, .header_link:focus{
     color: #fafafa;
 }
-.header_link:active{
+.header_link:active, .header_link.active{
     color: #fafafa;
     border-bottom: 3px solid#F1CDB3 ;
 }
+
 
 /*Header styles end*/
 
@@ -151,6 +166,7 @@ html{
     letter-spacing: 0.06em;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .button:hover, .button:focus{
@@ -295,6 +311,18 @@ html{
     border-radius: 9px;
    
 }
+
+.card_box:hover , .card_box:focus , .card_box:active{
+    cursor: pointer;
+    background: #FFFFFF;
+}
+
+.card_box:hover .card_button, .card_box:focus .card_button, .card_box:active  .card_button{
+    background: #FDDCC4;
+
+}
+
+
 .card_title{
    font-family: 'Georgia';
    font-weight: 400;
@@ -321,9 +349,7 @@ html{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.card_button:hover, .button:focus{
-    background: #FDDCC4;
-}
+
 
 .friends_button{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -413,7 +439,7 @@ color: #545454;
 
 .donation{
     background: #F6F6F6;
-    padding: 80px 0 100px;
+    padding: 90px 0 90px;
 }
 
 .donation_container{
@@ -502,7 +528,7 @@ color: #545454;
 }
 
 .left_title{
-width: 278px;
+width: 282px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 400;
 font-size: 35px;
@@ -559,8 +585,7 @@ letter-spacing: 0.06em;
 }
 
 .tel_box{
-    max-width: 239px;
-    width: 100%;
+    width: 239px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -568,7 +593,7 @@ letter-spacing: 0.06em;
 }
 
 .tel_number{
-width: 179px;
+width: 180px;
 height: 23px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 400;
