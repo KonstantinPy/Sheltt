@@ -452,6 +452,141 @@ color: #545454;
 
 /*Footer  styles start*/
 
+.footer{
+    background: url(/shelter/assets/img/start-screen-gradient-background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 350px;
+    padding-top: 40px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left_title{
+max-width: 278px;
+width: 100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+font-size: 35px;
+line-height: 45px;
+color: #FFFFFF;
+text-align: left;
+
+}
+
+.right_title{
+    max-width: 270px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-align: left;
+    
+    
+    }
+
+.contacts{
+    padding: 16px 160px 60px 0px;  
+}     
+
+.locations{
+    padding: 16px 160px 60px 0px;
+}
+
+.mail_box{
+    max-width: 251px;
+    height: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:40px 0px 40px 0px;
+}
+.mail_text{
+max-width: 191px;
+width: 100%;
+height: 23px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color: #F1CDB3;
+text-decoration: none;
+
+}
+
+.tel_box{
+    max-width: 239px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.tel_number{
+width: 179px;
+height: 23px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #F1CDB3;
+text-decoration: none;
+}
+
+.boston_box{
+    width: 302px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 34px 0px 32px 0px;
+}
+
+.boston_text{
+    width: 260px;
+    height: 46px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F1CDB3;
+    text-decoration: none;
+    
+}
+
+.london_box{
+    max-width: 302px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.london_text{
+    width: 260px;
+    height: 23px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+}
+
+
 
 
 /*Footer  styles end*/
