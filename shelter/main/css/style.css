@@ -1,5 +1,22 @@
+@font-face {
+    font-family: Arial;
+    src: url(/shelter/assets/fonts/fonts/arial/arial-regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Arial;
+    src: url(/shelter/assets/fonts/fonts/arial/arial-italic.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Georgia;
+    src: url(/shelter/assets/fonts/fonts/georgia/georgia-regular.ttf);
+    font-weight: 400;
+}
+
 html{
     box-sizing: border-box;
+    height: 100%;
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -10,8 +27,14 @@ html{
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 
+}
+
+.main{
+    flex: 1 0 auto;
 }
 
 .wrapper{
@@ -392,13 +415,15 @@ color: #545454;
 
 .donation{
     background: #F6F6F6;
-    height: 426px;
-    padding: 80px 143px 100px 143px;
+    height:426px;
+    padding: 80px 0 100px;
 }
 
 .donation_container{
+  height: 282px;
   display: flex;
   align-items: center;
+  padding:80px 142px 100px 143px ;
 
 }
 
@@ -470,6 +495,8 @@ color: #545454;
     background-size: cover;
     height: 350px;
     padding-top: 40px;
+    flex-shrink: 0;
+    
 }
 
 .footer_container{
