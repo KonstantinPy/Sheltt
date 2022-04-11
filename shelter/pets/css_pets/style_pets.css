@@ -95,7 +95,6 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     padding: 200px 0px 100px 0;
-    height: 100vh;
     height: 1462px;
 } 
 
@@ -222,7 +221,6 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     max-height: 350px;
     padding-top: 40px;
 }

@@ -92,8 +92,7 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 180px;
-    height: 100vh;
-    max-height: 908px;
+    height: 908px;
     
    
 }
@@ -157,8 +156,7 @@ html{
 
 .about {
     background: #FFFFFF;
-    height: 100vh;
-    max-height: 588px;
+    height: 588px;
 }
 
 .about_wrapper{
@@ -195,7 +193,7 @@ html{
 }
 .about_subtitle1{
     width: 430px;
-    font-family: 'Arial';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -205,7 +203,7 @@ html{
 
 .about_subtitle2{
     width: 430px;
-    font-family: 'Arial';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -216,8 +214,7 @@ html{
 /*Our friends styles start*/
 .friends{
     background: #F6F6F6;
-    height: 100vh;
-    max-height: 877px;
+    height: 877px;
     padding: 80px 0px 100px 0px;
     
 }
@@ -337,8 +334,7 @@ html{
 /*Help  styles start*/
 .help {
     background: #FFFFFF;
-    height: 100vh;
-    max-height: 611px;
+    height: 611px;
     padding: 80px 0px 100px 0px;
 }
 
@@ -385,7 +381,7 @@ color: #545454;
 }
 
 .help_img{
-    max-height: 60px;
+    height: 60px;
     margin-bottom: 30px;
 }
 
@@ -396,8 +392,7 @@ color: #545454;
 
 .donation{
     background: #F6F6F6;
-    height: 100vh;
-    max-height: 426px;
+    height: 426px;
     padding: 80px 143px 100px 143px;
 }
 
@@ -428,7 +423,7 @@ color: #545454;
 }
 
 .donation_subtitle{
-  font-family: 'Georgia';
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 17px;
@@ -473,8 +468,7 @@ color: #545454;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    max-height: 350px;
+    height: 350px;
     padding-top: 40px;
 }
 
@@ -572,7 +566,7 @@ text-decoration: none;
 .boston_text{
     width: 260px;
     height: 46px;
-    font-family: 'Georgia';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -592,7 +586,7 @@ text-decoration: none;
 .london_text{
     width: 260px;
     height: 23px;
-    font-family: 'Georgia';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
