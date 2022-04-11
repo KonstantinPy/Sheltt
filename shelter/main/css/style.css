@@ -6,7 +6,7 @@
 @font-face {
     font-family: Arial;
     src: url(/shelter/assets/fonts/fonts/arial/arial-italic.ttf);
-    font-weight: 400;
+    font-style: italic;
 }
 @font-face {
     font-family: Georgia;
@@ -115,7 +115,7 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 180px;
-    height: 908px;
+    
     
    
 }
@@ -179,7 +179,7 @@ html{
 
 .about {
     background: #FFFFFF;
-    height: 588px;
+    padding-bottom: 100px;
 }
 
 .about_wrapper{
@@ -237,7 +237,6 @@ html{
 /*Our friends styles start*/
 .friends{
     background: #F6F6F6;
-    height: 877px;
     padding: 80px 0px 100px 0px;
     
 }
@@ -357,7 +356,6 @@ html{
 /*Help  styles start*/
 .help {
     background: #FFFFFF;
-    height: 611px;
     padding: 80px 0px 100px 0px;
 }
 
@@ -415,7 +413,6 @@ color: #545454;
 
 .donation{
     background: #F6F6F6;
-    height:426px;
     padding: 80px 0 100px;
 }
 
@@ -493,7 +490,6 @@ color: #545454;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
     padding-top: 40px;
     flex-shrink: 0;
     
@@ -506,26 +502,25 @@ color: #545454;
 }
 
 .left_title{
-max-width: 278px;
-width: 100%;
+width: 278px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 400;
 font-size: 35px;
 line-height: 45px;
 color: #FFFFFF;
 text-align: left;
-
+letter-spacing: 0.06em;
 }
 
 .right_title{
-    max-width: 270px;
-    width: 100%;
+    width: 270px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 35px;
     line-height: 45px;
     color: #FFFFFF;
     text-align: left;
+    letter-spacing: 0.06em;
     
     
     }
@@ -546,6 +541,7 @@ text-align: left;
     justify-content: space-between;
     align-items: center;
     margin:40px 0px 40px 0px;
+    
 }
 .mail_text{
 max-width: 191px;
@@ -558,6 +554,7 @@ line-height: 115%;
 letter-spacing: 0.06em;
 color: #F1CDB3;
 text-decoration: none;
+letter-spacing: 0.06em;
 
 }
 
@@ -579,6 +576,7 @@ font-size: 20px;
 line-height: 23px;
 color: #F1CDB3;
 text-decoration: none;
+letter-spacing: 0.06em;
 }
 
 .boston_box{
@@ -599,6 +597,7 @@ text-decoration: none;
     line-height: 23px;
     color: #F1CDB3;
     text-decoration: none;
+    letter-spacing: 0.06em;
     
 }
 
@@ -621,6 +620,7 @@ text-decoration: none;
     letter-spacing: 0.06em;
     color: #F1CDB3;
     text-decoration: none;
+    letter-spacing: 0.06em;
 }
 
 
