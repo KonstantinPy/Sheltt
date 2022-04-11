@@ -75,11 +75,13 @@ html{
     text-decoration: none;
     
 }
+
+
 .header_link:hover, .header_link:focus{
-    color: #fafafa;
+    color: #292929;;
 }
 .header_link:active{
-    color: #fafafa;
+    
     border-bottom: 3px solid#F1CDB3 ;
 }
 
@@ -157,6 +159,13 @@ html{
     border: 2px solid #F1CDB3;
     border-radius: 100px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
+
+.card_button:focus, .card_button:hover{
+    background: #FDDCC4;
+    border: none;
+    outline: none;
 }
 
 .nav_container{
@@ -169,71 +178,40 @@ html{
 }
 
 
-.second_left{
+
+.pagination_button{
    font-family: 'Georgia';
    font-weight: 400;
    font-size: 20px;
    line-height: 23px;
    letter-spacing: 0.06em;
-   color: #CDCDCD;
-   border: 2px solid #CDCDCD;
    border-radius: 100px;
    width: 52px;
    height: 52px;
-   
+   cursor: pointer;
 }
-.first_left{
-    font-family: 'Georgia';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    color: #CDCDCD;
+
+.inactive_button{
     border: 2px solid #CDCDCD;
-    border-radius: 100px;
-    width: 52px;
-    height: 52px;
+    color: #CDCDCD;
 }
-.central{
-    font-family: 'Georgia';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    background: #F1CDB3;
+
+.active_button{
+    border: 2px solid #F1CDB3;
     color: #292929;
-    border-radius: 100px;
-    width: 52px;
-    height: 52px;
-    border:none;
-    outline: none;
-    
 
 }
-.first_right{
-    font-family: 'Georgia';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    width: 52px;
-    height: 52px;
+
+
+.pagination_button:focus, .pagination_button:hover{
+    background: #F1CDB3;
+    border: none;
+    outline: none;
 }
-.second_right{
-    font-family: 'Georgia';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    width: 52px;
-    height: 52px;
-}
+
+
+
+
 
 /*Main styles end*/
 

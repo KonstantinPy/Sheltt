@@ -71,6 +71,7 @@ html{
     line-height: 24px;
     text-decoration: none;
     
+    
 }
 .header_link:hover, .header_link:focus{
     color: #fafafa;
@@ -236,7 +237,7 @@ html{
     padding-bottom: 60px;
 }
 
-.left_arrow{
+.arrow{
     
     width: 52px;
     height: 52px;
@@ -245,13 +246,13 @@ html{
     
     
 }
-.right_arrow{
-    
-    width: 52px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
+
+.arrow:focus , .arrow:hover{
+    background: #FDDCC4;
+    border:none;
+    outline: none;
 }
+
 .friends_slider{
     display: flex;
     flex-direction: row;
@@ -301,6 +302,10 @@ html{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.card_button:hover, .button:focus{
+    background: #FDDCC4;
+}
+
 .friends_button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
@@ -316,10 +321,17 @@ html{
     margin: 0 auto;
     outline: none;
     border: none;
+
+    
    
     
 }
 
+.friends_button:hover, .button:focus{
+        background-color: #FDDCC4;
+        border: 0;
+        outline: none;
+    }
 /*Our friends styles end*/
 
 /*Help  styles start*/
@@ -399,9 +411,7 @@ color: #545454;
    padding-right: 30px;
 }
 
-.about_donation{
-  
-}
+
 
 .donation_title{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -434,6 +444,12 @@ color: #545454;
     border-radius: 9px;
     outline: none;
     border:none;
+}
+
+.donation_button:focus, .donation_button:hover{
+    background-color: #FDDCC4;
+        border: 0;
+        outline: none;
 }
 
 .legal_info{
