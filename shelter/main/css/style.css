@@ -1,16 +1,16 @@
 @font-face {
     font-family: Arial;
-    src: url(/shelter/assets/fonts/fonts/arial/arial-regular.ttf);
+    src: url(../../assets/fonts/fonts/arial/arial-regular.ttf);
     font-weight: 400;
 }
 @font-face {
     font-family: Arial;
-    src: url(/shelter/assets/fonts/fonts/arial/arial-italic.ttf);
+    src: url(../../assets/fonts/fonts/arial/arial-italic.ttf);
     font-style: italic;
 }
 @font-face {
     font-family: Georgia;
-    src: url(/shelter/assets/fonts/fonts/georgia/georgia-regular.ttf);
+    src: url(../../assets/fonts/fonts/georgia/georgia-regular.ttf);
     font-weight: 400;
 }
 
@@ -125,7 +125,7 @@ html{
 
 .intro{
    
-    background:url(/shelter/assets/img/start-screen-gradient-background.svg);
+    background:url(../../assets/img/start-screen-gradient-background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -512,7 +512,7 @@ color: #545454;
 /*Footer  styles start*/
 
 .footer{
-    background: url(/shelter/assets/img/start-screen-gradient-background.svg);
+    background: url(../../assets/img/start-screen-gradient-background.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

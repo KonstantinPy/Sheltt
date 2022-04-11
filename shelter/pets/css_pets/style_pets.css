@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Georgia;
+    src: url(../../assets/fonts/fonts/georgia/georgia-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(../../assets/fonts/fonts/arial/arial-regular.ttf);
+    font-weight: 400;
+}
+
 html{
     box-sizing: border-box;
 }
@@ -25,6 +37,7 @@ html{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
     width: 100%;
     background: #FFFFFF;
     height: 120px;
@@ -78,10 +91,16 @@ html{
 
 
 .header_link:hover, .header_link:focus{
-    color: #292929;;
+    color: #292929;
 }
 .header_link:active{
     
+    border-bottom: 3px solid#F1CDB3 ;
+
+}
+
+.header_link:active, .header_link.active{
+    color: #292929;;
     border-bottom: 3px solid#F1CDB3 ;
 }
 
@@ -161,11 +180,16 @@ html{
     cursor: pointer;
 }
 
-.card_button:focus, .card_button:hover{
-    background: #FDDCC4;
-    border: none;
-    outline: none;
+.card_box:hover , .card_box:focus , .card_box:active{
+    cursor: pointer;
+    background: #FFFFFF;
 }
+
+.card_box:hover .card_button, .card_box:focus .card_button, .card_box:active  .card_button{
+    background: #FDDCC4;
+
+}
+
 
 .nav_container{
     display: flex;
@@ -214,15 +238,14 @@ html{
 
 /*Main styles end*/
 
-/*Footer  styles start*/
-
 .footer{
-    background: url(/shelter/assets/img/start-screen-gradient-background.svg);
+    background: url(../../assets/img/start-screen-gradient-background.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 350px;
     padding-top: 40px;
+    flex-shrink: 0;
+    
 }
 
 .footer_container{
@@ -232,26 +255,25 @@ html{
 }
 
 .left_title{
-max-width: 278px;
-width: 100%;
+width: 282px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 400;
 font-size: 35px;
 line-height: 45px;
 color: #FFFFFF;
 text-align: left;
-
+letter-spacing: 0.06em;
 }
 
 .right_title{
-    max-width: 270px;
-    width: 100%;
+    width: 270px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 35px;
     line-height: 45px;
     color: #FFFFFF;
     text-align: left;
+    letter-spacing: 0.06em;
     
     
     }
@@ -272,6 +294,7 @@ text-align: left;
     justify-content: space-between;
     align-items: center;
     margin:40px 0px 40px 0px;
+    
 }
 .mail_text{
 max-width: 191px;
@@ -284,12 +307,12 @@ line-height: 115%;
 letter-spacing: 0.06em;
 color: #F1CDB3;
 text-decoration: none;
+letter-spacing: 0.06em;
 
 }
 
 .tel_box{
-    max-width: 239px;
-    width: 100%;
+    width: 239px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -297,7 +320,7 @@ text-decoration: none;
 }
 
 .tel_number{
-width: 179px;
+width: 180px;
 height: 23px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 400;
@@ -305,6 +328,7 @@ font-size: 20px;
 line-height: 23px;
 color: #F1CDB3;
 text-decoration: none;
+letter-spacing: 0.06em;
 }
 
 .boston_box{
@@ -319,12 +343,13 @@ text-decoration: none;
 .boston_text{
     width: 260px;
     height: 46px;
-    font-family: 'Georgia';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     color: #F1CDB3;
     text-decoration: none;
+    letter-spacing: 0.06em;
     
 }
 
@@ -339,7 +364,7 @@ text-decoration: none;
 .london_text{
     width: 260px;
     height: 23px;
-    font-family: 'Georgia';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -347,9 +372,8 @@ text-decoration: none;
     letter-spacing: 0.06em;
     color: #F1CDB3;
     text-decoration: none;
+    letter-spacing: 0.06em;
 }
 
 
 
-
-/*Footer  styles end*/
