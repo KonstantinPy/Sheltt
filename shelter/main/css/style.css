@@ -403,23 +403,22 @@ align-items: center;
 padding-bottom: 60px;
 }
 
-.help_first_container{
-    padding: 0px 87px 55px 87px;
+.help_container{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 55px 120px;
+   
 }
 
-.help_second_container{
-    padding: 0px 171px;
-    display: flex;
-    justify-content: space-between;
-    row-gap: 120px;
-}
 
 .icon_container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 .icon_title{
@@ -434,7 +433,8 @@ color: #545454;
 
 .help_img{
     height: 60px;
-    margin-bottom: 30px;
+    width: 60px;
+    
 }
 
 
@@ -557,11 +557,11 @@ letter-spacing: 0.06em;
     }
 
 .contacts{
-    padding: 16px 160px 60px 0px;  
+    padding: 16px 152px 60px 0px;  
 }     
 
 .locations{
-    padding: 16px 160px 60px 0px;
+    padding: 16px 152px 60px 0px;
 }
 
 .mail_box{
@@ -665,7 +665,7 @@ letter-spacing: 0.06em;
         max-width: 708px;
         margin: 0 auto;
     }
-    }
+    
   
     .header_wrapper{
       padding: 30px 0px 30px 0px;
@@ -707,28 +707,120 @@ letter-spacing: 0.06em;
       
       
   }
-
+    
   .about{
-      
+      padding-bottom: 0px;
       height:1048px;
       width: 768px;
+      
   }
   
   .about_wrapper{
-    padding-top: 80px;
+    padding:80px 0px 100px 0px;
     flex-direction: column;
-    height: 949px;
+    height: 1048px;
+    width: 437px;
+    margin: auto;
+   
     
     
+  }
+
+  .about_container{
+      padding: 0px 0px 0px 5px;
   }
 
   .about_img_container{
-      order: -1;
-  }
+      order: 3;
+      padding: 0px;
+      padding-left: 69px;
+      
+ }
+
+ .friends{
+     height: 877px;
+     width: 768px;
+     padding: 80px 0px 100px 0px;
+     
+ }
+
+.card_container{
+    padding: 0px 12px 0px 12px;
+}    
 
 
+ .card_box:last-child{
+     display: none;
+ }
   
+ .help{
+     height: 779px;
+     padding:80px 0px 100px 0px ;
+ }
+
+ .help_container{
+     max-width: 630px;
+     gap: 55px 60px;
+     margin: auto;
+ }
+
+ .icon_container{
+     width: 170px;
+    
+ }
+
+ .donation{
+     height: 783px;
+     padding: 80px 0px 100px 0px;
+
+ }
+
+ .donation_container{
+     flex-direction: column;
+     padding:0px;
+ }
+
+ .puppy_img{
+     order: 2;
+     padding: 0px;
+ }
+
+ .dontation_puppy{
+     padding-top: 60px;
+ }
+
+.footer{
+   padding-top: 30px;
+   height: 639px;
+}
+.footer_container{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 768px;
+    
+}
+
+.contacts{
+    padding:0px 29px 0px 33px;
+    
+}
+.locations{
+    padding:0px 33px 0px 29px;
+    
+}
   
+.footer_puppy{
+  padding-top: 65px;
+}
+
+.waiting_puppy{
+    
+    height: 310px;
+    width: 300px;
+    
+
+} 
   
   
 }
