@@ -242,6 +242,7 @@ html{
 .active_button:active, .active_button.active{
     background: #F1CDB3;
     border-bottom: 3px solid#F1CDB3 ;
+    cursor: default;
 }
 
 
