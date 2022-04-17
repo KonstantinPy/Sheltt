@@ -498,7 +498,8 @@ color: #545454;
   line-height: 17px;
   letter-spacing: 0.06em;
   color: #545454;
-  padding-bottom: 20px;
+  padding-bottom: 29px;
+ 
 }
 
 .donation_button{
@@ -509,6 +510,10 @@ color: #545454;
      outline: none;
     border:none;
     font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    
+    
     
    
 }
@@ -528,6 +533,7 @@ color: #545454;
     width: 30px;
     height: 23px;
     
+    
 }
 
 .donation_button:focus, .donation_button:hover{
@@ -535,6 +541,7 @@ color: #545454;
     border: 0;
     outline: none;
 }
+
 
 .legal_info{
     max-width: 380px;
@@ -546,7 +553,8 @@ color: #545454;
     line-height: 18px;
     color: #B2B2B2;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 27px;
+    
 }
 /*Donation  styles end*/
 
@@ -857,7 +865,14 @@ letter-spacing: 0.06em;
     
 
 } 
+
+.donation_subtitle{
+    padding-bottom: 30px;
+}
   
+.legal_info{
+    padding-top: 30px;
+}
   
 }
 
