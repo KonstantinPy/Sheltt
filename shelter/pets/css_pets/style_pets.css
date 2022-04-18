@@ -313,11 +313,11 @@ letter-spacing: 0.06em;
     }
 
 .contacts{
-    padding: 16px 160px 60px 0px;  
+    padding:0px;  
 }     
 
 .locations{
-    padding: 16px 160px 60px 0px;
+    padding:0px;
 }
 
 .mail_box{
@@ -422,10 +422,7 @@ letter-spacing: 0.06em;
         
     }
 
-    .header{
-        width: 768px;
-       
-    }
+    
 
     .pets{
         height: 1853px;
@@ -508,10 +505,7 @@ letter-spacing: 0.06em;
         
     }
 
-    .header{
-        width: 320px;
-    }
-
+    
     .subtitle{
         
         letter-spacing: 0.1em;

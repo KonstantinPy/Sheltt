@@ -756,7 +756,7 @@ letter-spacing: 0.06em;
   .about{
       padding-bottom: 0px;
       height:1048px;
-      max-width: 768px;
+      
       margin: auto;
       
   }
@@ -785,7 +785,7 @@ letter-spacing: 0.06em;
 
  .friends{
      height: 877px;
-     max-width: 768px;
+     
      padding: 80px 0px 100px 0px;
      margin: auto;
      
@@ -849,11 +849,11 @@ letter-spacing: 0.06em;
 }
 
 .contacts{
-    padding:0px 29px 0px 33px;
+    padding:0px;
     
 }
 .locations{
-    padding:0px 33px 0px 29px;
+    padding:0px;
     
 }
   
@@ -898,7 +898,7 @@ letter-spacing: 0.06em;
   
   .intro{
     padding-top: 150px;
-    max-width: 320px;
+    
     margin: auto;
   }
 
@@ -953,7 +953,7 @@ letter-spacing: 0.06em;
 .about{
     padding-bottom: 0px;
     height: 974px;
-    max-width: 320px;
+    
     margin: auto;
     
     
@@ -1020,7 +1020,7 @@ letter-spacing: 0.06em;
 
 .friends{
     height: 791px;
-    max-width: 320px;
+    
     padding: 42px 0px 42px 0px;
     margin: auto;
    
@@ -1069,7 +1069,7 @@ letter-spacing: 0.06em;
 .help{
     height: 745px;
     padding:42px 0px 42px 0px ;
-    max-width: 320px;
+   
     margin: auto;
 }
 
@@ -1106,7 +1106,7 @@ letter-spacing: 0.06em;
 .donation{
     height: 542.2px;
     padding: 42px 0px 42px 0px;
-    max-width: 320px;
+    
     margin: auto;
 
 }
