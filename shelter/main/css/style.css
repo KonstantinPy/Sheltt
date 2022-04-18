@@ -756,6 +756,7 @@ letter-spacing: 0.06em;
       padding-bottom: 0px;
       height:1048px;
       width: 768px;
+      margin: auto;
       
   }
   
@@ -785,6 +786,7 @@ letter-spacing: 0.06em;
      height: 877px;
      width: 768px;
      padding: 80px 0px 100px 0px;
+     margin: auto;
      
  }
 
