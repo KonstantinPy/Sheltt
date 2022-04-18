@@ -313,11 +313,11 @@ letter-spacing: 0.06em;
     }
 
 .contacts{
-    padding:0px;  
+    padding: 16px 160px 60px 0px;  
 }     
 
 .locations{
-    padding:0px;
+    padding: 16px 160px 60px 0px;
 }
 
 .mail_box{
@@ -477,11 +477,11 @@ letter-spacing: 0.06em;
      }
      
      .contacts{
-         padding:0px 29px 0px 33px;
+         padding:0px;
          
      }
      .locations{
-         padding:0px 33px 0px 29px;
+         padding:0px;
          
      }
        
