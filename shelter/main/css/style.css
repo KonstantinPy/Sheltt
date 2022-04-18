@@ -216,6 +216,7 @@ html{
 .about {
     background: #FFFFFF;
     padding-bottom: 100px;
+   
 }
 
 .about_wrapper{
@@ -755,7 +756,7 @@ letter-spacing: 0.06em;
   .about{
       padding-bottom: 0px;
       height:1048px;
-      width: 768px;
+      max-width: 768px;
       margin: auto;
       
   }
@@ -784,7 +785,7 @@ letter-spacing: 0.06em;
 
  .friends{
      height: 877px;
-     width: 768px;
+     max-width: 768px;
      padding: 80px 0px 100px 0px;
      margin: auto;
      
@@ -897,6 +898,8 @@ letter-spacing: 0.06em;
   
   .intro{
     padding-top: 150px;
+    max-width: 320px;
+    margin: auto;
   }
 
   .intro_wrapper{
@@ -950,7 +953,7 @@ letter-spacing: 0.06em;
 .about{
     padding-bottom: 0px;
     height: 974px;
-    width: 300px;
+    max-width: 320px;
     margin: auto;
     
     
@@ -1017,7 +1020,7 @@ letter-spacing: 0.06em;
 
 .friends{
     height: 791px;
-    width: 300px;
+    max-width: 320px;
     padding: 42px 0px 42px 0px;
     margin: auto;
    
@@ -1066,7 +1069,7 @@ letter-spacing: 0.06em;
 .help{
     height: 745px;
     padding:42px 0px 42px 0px ;
-    width: 300px;
+    max-width: 320px;
     margin: auto;
 }
 
@@ -1103,7 +1106,7 @@ letter-spacing: 0.06em;
 .donation{
     height: 542.2px;
     padding: 42px 0px 42px 0px;
-    width: 300px;
+    max-width: 320px;
     margin: auto;
 
 }
@@ -1115,6 +1118,7 @@ letter-spacing: 0.06em;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    
     
     
 
@@ -1133,7 +1137,7 @@ letter-spacing: 0.06em;
 }
 
 .donation_subtitle{
-    padding-bottom: 6px;
+    padding-bottom: 0px;
     letter-spacing: 0;
     line-height: 160%;
     
@@ -1150,6 +1154,8 @@ letter-spacing: 0.06em;
     padding-top: 0px;
     text-align: justify;
     width: 280px;
+    line-height: 150%;
+    letter-spacing: 0;
    
 }
 
@@ -1183,6 +1189,7 @@ letter-spacing: 0.06em;
     height: 809px;
     gap: 40px;
     padding-top: 30px;
+    max-width: 320px;
     
     
     
