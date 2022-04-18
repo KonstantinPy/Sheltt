@@ -1133,7 +1133,7 @@ letter-spacing: 0.06em;
 .donation_subtitle{
     padding-bottom: 6px;
     letter-spacing: 0;
-    line-height: 160@;
+    line-height: 160%;
     
 }
 
@@ -1142,10 +1142,6 @@ letter-spacing: 0.06em;
     flex-direction: column;
     padding:0px;
     width: 300px;
-}
-
-.credic_content{
-
 }
 
 .legal_info{
@@ -1177,87 +1173,61 @@ letter-spacing: 0.06em;
 }
 
 .footer{
-    padding-top: 30px;
     height: 809px;
-    margin: 0 auto;
- }
- .footer_container{
-     margin: 0 auto;
-     flex-direction: column;
-     align-items: center;
-     gap: 40px;
-     width: 300px;
-     
-  
-     
-     
- }
- 
- .left_title{
-     font-size: 25px;
-     letter-spacing: 0.06em;
-     line-height: 130%;
-     text-align: center;
-     padding-bottom: 40px;
- }
- 
- .right_title{
-    font-size: 25px;
-    letter-spacing: 0.06em;
-     line-height: 130%;
-     text-align: center;
- }
-
- .contacts{
-    
     padding: 0;
-    width: 280px;
-    
-    
-    
-     
 }
 
- .locations{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.footer_container{
+    height: 809px;
     gap: 40px;
-    padding:0;
-    width: 300px;
+    padding-top: 30px;
     
- }
+    
+    
+}
+
+.footer_puppy{
+    padding: 0;
+}
+
+.footer_puppy_img{
+    width: 260px;
+    height: 269px;
+}
+
+.left_title{
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.right_title{
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin: auto;
+   
+
+}
 
 .mail_box{
-    
-    margin:0px 25px 40px 25px ;
+   margin: 40px 20px 40px 13px;
 }
 
 .tel_box{
-     margin: 0px 31px 0px 30px;
+    margin: auto;
 }
 
 .boston_box{
-    margin: 0 auto;
+    margin: 40px 0px 40px 0px;
 }
 
- .locations{
-     padding:0;
-     
- }
-   
- .footer_puppy{
-   padding-top:0;
- }
- 
- .waiting_puppy{
-     
-     height: 269px;
-     width: 260px;
-     
-
+.locations{
+    margin-top: -2px;
+    margin-left: 3px;
 }
 
-
+}
 /*Media  styles end*/

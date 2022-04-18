@@ -26,6 +26,24 @@ html{
 
 }
 
+.burger_menu{
+    display: none;
+    height: 22px;
+    width: 30px;
+    flex-direction:column;
+    justify-content: space-between;
+    position: absolute;
+    top: 49px;
+    right: 53px;
+}
+
+.burger_line{
+    height: 2px;
+    width: 30px;
+    background-color: #000000;
+  }
+
+
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
@@ -176,18 +194,20 @@ html{
 }
 
 .card_button{
+    height: 52px;
     background: #FAFAFA;
-    padding: 15px 45px;
+    padding: 13px 45px 17px 45px;
     color: #292929;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 130%;
     letter-spacing: 0.06em;
     border: 2px solid #F1CDB3;
     border-radius: 100px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     cursor: pointer;
+    
 }
 
 .card_box:hover , .card_box:focus , .card_box:active{
@@ -389,5 +409,230 @@ letter-spacing: 0.06em;
     letter-spacing: 0.06em;
 }
 
+/*Media  styles start*/
 
+@media(max-width: 1279px){
+    .wrapper{
+        max-width: 708px;
+        margin: 0 auto;
+    }
 
+    .header_wrapper{
+        padding: 30px 0px 30px 0px;
+        
+    }
+
+    .header{
+        width: 768px;
+       
+    }
+
+    .pets{
+        height: 1853px;
+        padding: 200px 0px 70px 0px;
+        
+    }
+
+    .pets_title{
+        padding-bottom: 30px;
+    }
+     
+    .card_box{
+        margin: 0;
+        
+    }
+
+    .nav_container{
+        position: relative;
+        top: 475px;
+        padding-top: 0;
+    }
+
+    .cards_container{
+        width: 580px;
+        gap:30px 40px;
+        margin: auto;
+    }
+
+    .card_box:nth-child(7){
+        display: none;
+    }
+
+    .card_box:nth-child(8){
+        display: none;
+    }
+
+    .card_button{
+        margin-bottom: 30px;
+        
+    }
+    
+    .footer{
+        padding-top: 30px;
+        height: 639px;
+     }
+     .footer_container{
+         margin: 0 auto;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         max-width: 768px;
+         
+     }
+     
+     .contacts{
+         padding:0px 29px 0px 33px;
+         
+     }
+     .locations{
+         padding:0px 33px 0px 29px;
+         
+     }
+       
+     .footer_puppy{
+       padding-top: 65px;
+     }
+     
+
+}
+
+@media(max-width: 767px){
+    
+    .wrapper{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+  
+    .header_wrapper{
+        padding: 30px 40px 30px 0px;
+        
+        
+    }
+
+    .header{
+        width: 320px;
+    }
+
+    .subtitle{
+        
+        letter-spacing: 0.1em;
+        margin-left: 4px;
+    }
+
+    .burger_menu{
+         display: flex;
+    }
+
+     .header_nav{
+         display: none;
+    }
+    
+    .pets{
+        height: 1769px;
+        padding: 162px 0px 42px 0px;
+    }
+
+    .pets_title{
+        padding-bottom: 42px;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+     
+    .card_box{
+        margin: 0;
+        
+    }
+
+    .nav_container{
+        position: relative;
+        top: 475px;
+        padding-top: 0;
+    }
+
+    .cards_container{
+        
+        width: 270px;
+        gap:30px;
+        margin: auto;
+    }
+
+    .card_box:nth-child(4){
+        display: none;
+    }
+    
+    .card_box:nth-child(5){
+        display: none;
+    }
+
+    .card_box:nth-child(6){
+        display: none;
+    }
+
+    .card_box:nth-child(7){
+        display: none;
+    }
+
+    .card_box:nth-child(8){
+        display: none;
+    }
+
+    
+    /*Problem starts*/
+
+    .footer{
+        height: 809px;
+        padding: 0;
+    }
+    
+    .footer_container{
+        height: 809px;
+        gap: 40px;
+        padding-top: 30px;
+        
+        
+        
+    }
+
+    .footer_puppy{
+        padding: 0;
+    }
+
+    .footer_puppy_img{
+        width: 260px;
+        height: 269px;
+    }
+
+    .left_title{
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        text-align: center;
+    }
+
+    .right_title{
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin: auto;
+       
+
+    }
+
+    .mail_box{
+       margin: 40px 20px 40px 13px;
+    }
+
+    .tel_box{
+        margin: auto;
+    }
+
+    .boston_box{
+        margin: 40px 0px 40px 0px;
+    }
+
+    .locations{
+        margin-top: -2px;
+        margin-left: 3px;
+    }
+}
