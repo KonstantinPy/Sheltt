@@ -4,11 +4,11 @@ const logo = document.querySelector('.header_logo');
 const bodyHidden = document.body;
 const navList = document.querySelectorAll('.header_link');
 const header = document.querySelector('.header');
-const div = document.createElement('div');
+const overlay = document.querySelector('overlay')
 
-document.body.append(div)
 
-function toggleMenu () {
+
+function toggleMenu() {
     burger.classList.toggle('open');
     burgerMenu.classList.toggle('open');
     logo.classList.toggle('open');
@@ -19,7 +19,7 @@ function toggleMenu () {
 
 }
 
-const burgerSubscribe = () => {
+function addEventListeners() {
     burger.addEventListener('click', toggleMenu);
     div.addEventListener('click', toggleMenu);
     navList.forEach((el, index) => {
@@ -27,4 +27,4 @@ const burgerSubscribe = () => {
       });
   }
   
- 
+  addEventListeners();
