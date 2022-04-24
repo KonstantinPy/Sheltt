@@ -21,7 +21,7 @@ function toggleMenu() {
 
 function addEventListeners() {
     burger.addEventListener('click', toggleMenu);
-    div.addEventListener('click', toggleMenu);
+    
     navList.forEach((el, index) => {
       el.addEventListener('click', toggleMenu)
       });
