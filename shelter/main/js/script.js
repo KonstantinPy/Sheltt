@@ -33,24 +33,3 @@ function addEventListeners() {
 
 //Slider
 
-const cards = document.querySelectorAll('.card_box');
-const arrowButn = document.querySelectorAll('.arrow');
-
-arrowButn.forEach((btn) => {
-    btn.addEventListener('click' , learnMore)
-});
-
-
-
-let arr[];
-
-function learnMore() {
-     let prevArr = getJson();
-     arr = [];
-}
-
-  while (arr.length < 3) {
-      let x = Math.floor(Math.random() * 8);
-      
-  }
-   

@@ -54,7 +54,7 @@ html{
     margin: 0 auto;
 }
 
-.container{
+.header_container{
     max-width: 1280;
     padding: 0 40px;
     margin: 0 auto;
@@ -723,7 +723,7 @@ letter-spacing: 0.06em;
         margin: 0 auto;
     }
 
-    .container{
+    .header_container{
         padding: 0 30px;
         margin: 0 auto;
     }
@@ -903,7 +903,7 @@ letter-spacing: 0.06em;
         margin: 0 auto;
     }
 
-    .container{
+    .header_container{
         
         padding: 0 10px;
         margin: 0 auto;
@@ -957,7 +957,7 @@ letter-spacing: 0.06em;
     background-color: #292929;
     width: 320px;
     height: 100%;
-    padding: 248px 0 0 0;
+    padding: 207px 0 0 0;
 }
 
 .body.open{
@@ -984,10 +984,7 @@ letter-spacing: 0.06em;
     opacity: 1;
   }
 
-  .header_item+.header_item {
-    margin-left: 0;
-    margin-top: 41px;
-  }
+  
 
   .header_link {
     font-size: 32px;
