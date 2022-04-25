@@ -1,10 +1,13 @@
+
+//Menu
+
 const burger = document.querySelector('.burger_menu');
 const burgerMenu = document.querySelector('.header_nav');
 const logo = document.querySelector('.header_logo');
 const bodyHidden = document.body;
 const navList = document.querySelectorAll('.header_link');
 const header = document.querySelector('.header');
-const overlay = document.querySelector('overlay')
+const overlay = document.querySelector('.overlay')
 
 
 
@@ -13,18 +16,41 @@ function toggleMenu() {
     burgerMenu.classList.toggle('open');
     logo.classList.toggle('open');
     bodyHidden.classList.toggle('open');
-    navList.classList.toggle('open');
-    overlay.classList.toggle('overlay');
+    overlay.classList.toggle('active');
     header.classList.toggle('open');
 
 }
 
 function addEventListeners() {
     burger.addEventListener('click', toggleMenu);
-    
-    navList.forEach((el, index) => {
+    overlay.addEventListener('click', toggleMenu);
+    navList.forEach((el) => {
       el.addEventListener('click', toggleMenu)
       });
   }
   
   addEventListeners();
+
+//Slider
+
+const cards = document.querySelectorAll('.card_box');
+const arrowButn = document.querySelectorAll('.arrow');
+
+arrowButn.forEach((btn) => {
+    btn.addEventListener('click' , learnMore)
+});
+
+
+
+let arr[];
+
+function learnMore() {
+     let prevArr = getJson();
+     arr = [];
+}
+
+  while (arr.length < 3) {
+      let x = Math.floor(Math.random() * 8);
+      
+  }
+   
